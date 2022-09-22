@@ -53,7 +53,5 @@ Razorpay.setup ENV.fetch('RAZORPAY_KEY_ID', nil), ENV.fetch('RAZORPAY_KEY_SECRET
 
       puts "\t  created at #{Time.at(payment.created_at)}  --  #{response.status}"
     end
-
-    skip += 100
   end
 end
